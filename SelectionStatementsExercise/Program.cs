@@ -63,7 +63,7 @@ namespace SelectionStatementsExercise
             while (guess == statement || Convert.ToInt32(guess) != myNum);
 
 
-            /* Computer generated random number picker 
+            /* Computer generated random number picker*/ 
 
             var num = new Random();
             var systemNumber = num.Next(1, 50);
@@ -87,7 +87,7 @@ namespace SelectionStatementsExercise
                     Console.WriteLine("Your number is correct!!");
                 }
             }
-            while (userInput != systemNumber);*/
+            while (userInput != systemNumber);
 
 
 
